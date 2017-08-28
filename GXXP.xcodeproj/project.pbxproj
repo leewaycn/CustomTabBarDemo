@@ -21,6 +21,7 @@
 		2F213E6B1F53C2F600FDF731 /* MyNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F213E6A1F53C2F600FDF731 /* MyNaviViewController.m */; };
 		2F213E6E1F53E5EE00FDF731 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F213E6D1F53E5EE00FDF731 /* UIView+Extension.m */; };
 		2F213E711F53EE1000FDF731 /* UITabBarItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F213E701F53EE1000FDF731 /* UITabBarItem+Extension.m */; };
+		2F213E741F53FC1200FDF731 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F213E731F53FC1200FDF731 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		2F213E6D1F53E5EE00FDF731 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		2F213E6F1F53EE1000FDF731 /* UITabBarItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Extension.h"; sourceTree = "<group>"; };
 		2F213E701F53EE1000FDF731 /* UITabBarItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Extension.m"; sourceTree = "<group>"; };
+		2F213E721F53FC1200FDF731 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2F213E731F53FC1200FDF731 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				2F213E671F53C2A800FDF731 /* AddViewController.m */,
 				2F213E691F53C2F600FDF731 /* MyNaviViewController.h */,
 				2F213E6A1F53C2F600FDF731 /* MyNaviViewController.m */,
+				2F213E721F53FC1200FDF731 /* BaseViewController.h */,
+				2F213E731F53FC1200FDF731 /* BaseViewController.m */,
 				2F213E571F53C1F700FDF731 /* MyTabBar.h */,
 				2F213E581F53C1F700FDF731 /* MyTabBar.m */,
 				2F213E6C1F53E5EE00FDF731 /* UIView+Extension.h */,
@@ -209,6 +214,7 @@
 				2F213E591F53C1F700FDF731 /* MyTabBar.m in Sources */,
 				2F213E621F53C29C00FDF731 /* MessageViewController.m in Sources */,
 				2F213E711F53EE1000FDF731 /* UITabBarItem+Extension.m in Sources */,
+				2F213E741F53FC1200FDF731 /* BaseViewController.m in Sources */,
 				2F213E651F53C2A100FDF731 /* MineViewController.m in Sources */,
 				2F213E6B1F53C2F600FDF731 /* MyNaviViewController.m in Sources */,
 				2F213E681F53C2A800FDF731 /* AddViewController.m in Sources */,

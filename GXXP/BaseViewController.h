@@ -1,5 +1,5 @@
 //
-//  VideoViewController.h
+//  BaseViewController.h
 //  GXXP
 //
 //  Created by 大鸟网络 on 2017/8/28.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
 
-@interface VideoViewController : BaseViewController
+@interface BaseViewController : UIViewController
 
 @end

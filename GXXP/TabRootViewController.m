@@ -70,6 +70,9 @@
     [self setValue:self.mytabBar forKey:@"tabBar"];
     
     
+    
+    
+    
 }
 
 -(void)addChildVc:(UIViewController*)childVc title:(NSString*)title image:(NSString*)image selectedImage:(NSString*)selectedImage{
@@ -88,7 +91,7 @@
     //    childVc.view.backgroundColor = RandomColor; // 这句代码会自动加载主页，消息，发现，我四个控制器的view，但是view要在我们用的时候去提前加载
     
     // 为子控制器包装导航控制器
-    UINavigationController *navigationVc = [[UINavigationController alloc] initWithRootViewController:childVc];
+    MyNaviViewController *navigationVc = [[MyNaviViewController alloc] initWithRootViewController:childVc];
     // 添加子控制器
     [self addChildViewController:navigationVc];
     
@@ -102,6 +105,11 @@
 -(void)tabBarDidClickPlusButton:(MyTabBar *)tabBar{
 
     NSLog(@"%s",__func__);
+    
+    
+    AddViewController *add = [[AddViewController alloc]init];
+    [self presentViewController:[[MyNaviViewController alloc ]initWithRootViewController:add] animated:YES completion:nil];
+    
 
 }
 

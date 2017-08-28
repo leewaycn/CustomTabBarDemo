@@ -17,8 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    
+    UIButton *push = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [self.view addSubview:push];
+    push .backgroundColor = [UIColor redColor];
+    [push addTarget:self action:@selector(pusheView:) forControlEvents:UIControlEventTouchUpInside];
+    
 }
-
+-(void)pusheView:(UIButton*)btn{
+    HomeViewController *home= [[HomeViewController alloc]init];
+    [self.navigationController pushViewController:home animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

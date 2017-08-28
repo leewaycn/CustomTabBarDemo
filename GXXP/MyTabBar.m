@@ -42,6 +42,11 @@
         [plusBtn addTarget:self action:@selector(plusBtnClick) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:plusBtn];
         self.plusBtn = plusBtn;
+        
+        
+        
+        [self addObserver:self forKeyPath:@"" options:NSKeyValueObservingOptionNew context:nil];
+        
     }
     return self;
 }

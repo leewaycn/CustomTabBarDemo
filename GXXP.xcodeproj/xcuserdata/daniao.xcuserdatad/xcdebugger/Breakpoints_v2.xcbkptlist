@@ -58,12 +58,12 @@
                   moduleName = "GXXP"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/mydisk/DeveloperLib/GXXP/GXXP/MyTabBar.m"
-                  timestampString = "525594431.30953"
+                  timestampString = "525597978.577583"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "73"
                   endingLineNumber = "73"
-                  offsetFromSymbolStart = "356">
+                  offsetFromSymbolStart = "372">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -73,12 +73,12 @@
                   moduleName = "GXXP"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/mydisk/DeveloperLib/GXXP/GXXP/MyTabBar.m"
-                  timestampString = "525594431.312416"
+                  timestampString = "525597978.580022"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "73"
                   endingLineNumber = "73"
-                  offsetFromSymbolStart = "372">
+                  offsetFromSymbolStart = "380">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -106,12 +106,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GXXP/TabRootViewController.m"
-            timestampString = "525594423.988347"
+            timestampString = "525596574.539192"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "-tabBarDidClickPlusButton:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GXXP/MyNaviViewController.m"
+            timestampString = "525600598.390936"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-pushViewController:animated:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GXXP/MyNaviViewController.m"
+            timestampString = "525600598.390936"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-back:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
