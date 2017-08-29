@@ -20,6 +20,10 @@
     // Do any additional setup after loading the view.
     
     self.navigationController.delegate = self;
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    
+    self.view.backgroundColor = [UIColor colorWithWhite:arc4random()%255/255.0 alpha:1];
 }
 //
 //- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated

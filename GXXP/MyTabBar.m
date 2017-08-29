@@ -45,7 +45,7 @@
         
         
         
-        [self addObserver:self forKeyPath:@"" options:NSKeyValueObservingOptionNew context:nil];
+//        [self addObserver:self forKeyPath:@"" options:NSKeyValueObservingOptionNew context:nil];
         
     }
     return self;

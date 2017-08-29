@@ -42,7 +42,7 @@
     self.hidesBottomBarWhenPushed = YES;
     
     self.interactivePopGestureRecognizer .delegate = self;
-    
+ 
 }
 -(void)back:(UIBarButtonItem*)barck{
     NSLog(@"%s",__func__);
@@ -61,9 +61,11 @@
     
     if (self.viewControllers.count != 0) {
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"icon_goback_p"] style:UIBarButtonItemStyleDone target:self action:@selector(back:)];
-        
+        viewController.hidesBottomBarWhenPushed = YES;
+
     
-        self.hidesBottomBarWhenPushed = YES;
+    }else{
+
     }
 
     
@@ -89,6 +91,28 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer{
+    
+    
+    NSLog(@"%@-%@",[gestureRecognizer class],[otherGestureRecognizer class]);
+    
+    return YES;
+}
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch{
+    return YES;
+}
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRequireFailureOfGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer{
+    NSLog(@"%@-%@",[gestureRecognizer class],[otherGestureRecognizer class]);
+    
+    if (self.viewControllers.count==1) {
+//        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+    
+    
+    return YES;
+}
+
 
 /*
 #pragma mark - Navigation
