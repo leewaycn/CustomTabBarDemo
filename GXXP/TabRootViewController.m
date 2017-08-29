@@ -33,29 +33,7 @@
     
     
     
-    
-    MyNaviViewController *homenavi = [[MyNaviViewController alloc]initWithRootViewController:[[HomeViewController alloc]init]];
-    
-    
-    MyNaviViewController *videonavi = [[MyNaviViewController alloc]initWithRootViewController:[[VideoViewController alloc]init]];
-    
-    MyNaviViewController *messagenavi = [[MyNaviViewController alloc]initWithRootViewController:[[MessageViewController alloc]init]];
-    
-    MyNaviViewController *minenavi = [[MyNaviViewController alloc]initWithRootViewController:[[MineViewController alloc]init]];
-    
-    
-    
-    
-//    self.viewControllers = @[homenavi,videonavi,messagenavi,minenavi];
-    
-    
-    
-    self.mytabBar = [[MyTabBar alloc]init];//WithFrame:self.tabBar.bounds];
-//    self.mytabBar.backgroundColor = [UIColor redColor];
-//    [self.view addSubview:self.mytabBar];
-//    [self.tabBar removeFromSuperview];
-    
-    
+    self.mytabBar = [[MyTabBar alloc]init];
     // 添加子控制器
     [self addChildVc:[[HomeViewController alloc] init] title:@"首页" image:@"tab_icon_home_normal" selectedImage:@"tab_icon_home_normal"];
     [self addChildVc:[[VideoViewController alloc] init] title:@"社区" image:@"tab_icon_home_normal" selectedImage:@"tab_icon_home_normal"];
